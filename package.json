@@ -1,0 +1,30 @@
+{
+  "name": "denee_aboutthisitem_proxy",
+  "version": "1.0.0",
+  "description": "Proxy for the About This Item component",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack -d --watch",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Denee Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "axios": "^0.18.1",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "1.6.0",
+    "http": "0.0.1-security",
+    "http-proxy": "1.18.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
